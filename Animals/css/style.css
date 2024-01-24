@@ -1,0 +1,146 @@
+#list-tab {
+    position: absolute;
+    top: 50px;
+    left: 35px;
+    width: 15%;
+    text-align: center;
+}
+
+.list-group li {
+    cursor: pointer;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right:0;
+    left:0;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+
+.deer {
+    stroke: #4908fa;
+    stroke-width: 10px;
+    stroke-dashoffset: -32000;
+    stroke-dasharray: 32000;
+    animation-name: deer-animation;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+.wolf{
+    stroke: #4908fa;
+    stroke-width: 10px;
+    stroke-dashoffset: -28000;
+    stroke-dasharray: 28000;
+    animation-name: wolf-animation;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+.dog, .monkey{
+    stroke: #4908fa;
+    stroke-width: 10px;
+    stroke-dashoffset: -40000;
+    stroke-dasharray: 40000;
+    animation-name: dog-animation;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+.giraffe{
+    stroke: #4908fa;
+    stroke-width: 10px;
+    stroke-dashoffset: -32000;
+    stroke-dasharray: 32000;
+    animation-name: giraffe-animation;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+@keyframes wolf-animation {
+    0% {
+        stroke-dashoffset: -28000;
+        stroke: #4908fa;
+    }
+    30% {
+        stroke: #f83104;
+    }
+    50% {
+        stroke: #fa00fa;
+    }
+    70% {
+        stroke: #070bf7;
+    }
+    100% {
+        stroke-dashoffset:0;  
+        stroke: #ff1e00;
+    }
+}
+
+@keyframes deer-animation {
+    0% {
+        stroke-dashoffset: -32000;
+        stroke: #4908fa;
+    }
+    30% {
+        stroke: #f83104;
+    }
+    50% {
+        stroke: #fa00fa;
+    }
+    70% {
+        stroke: #070bf7;
+    }
+    100% {
+        stroke-dashoffset:0;  
+        stroke: #ff1e00;
+    }
+}
+
+@keyframes dog-animation {
+    0% {
+        stroke-dashoffset: -40000;
+        stroke: #4908fa;
+    }
+    30% {
+        stroke: #f83104;
+    }
+    50% {
+        stroke: #fa00fa;
+    }
+    70% {
+        stroke: #070bf7;
+    }
+    100% {
+        stroke-dashoffset:0;  
+        stroke: #ff1e00;
+    }
+}
+
+@keyframes giraffe-animation {
+    0% {
+        stroke-dashoffset: -32000;
+        stroke: #4908fa;
+    }
+    30% {
+        stroke: #f83104;
+    }
+    50% {
+        stroke: #fa00fa;
+    }
+    70% {
+        stroke: #070bf7;
+    }
+    100% {
+        stroke-dashoffset:0;  
+        stroke: #ff1e00;
+    }
+}
